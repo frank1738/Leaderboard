@@ -60,7 +60,7 @@ body {
   background: none;
   border: 1px solid grey;
   cursor: pointer;
-  box-shadow: 2px 5px  grey;
+  box-shadow: 2px 5px grey;
 }
 
 .refresh-btn {
@@ -70,14 +70,14 @@ body {
   border: 1px solid gray;
   background: none;
   cursor: pointer;
-  box-shadow: 2px 5px  grey;
-}
-
-.details:nth-child(even) {
-  background-color: lightgrey;
+  box-shadow: 2px 5px grey;
 }
 
 .details {
   padding: 0 0.5rem;
   font-size: 1rem;
+}
+
+.details:nth-child(even) {
+  background-color: lightgrey;
 }

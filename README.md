@@ -35,13 +35,16 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone git@github.com:frank1738/Awesome-books.git
+   git clone https://github.com/frank1738/Todo-list.git
    ```
-2. Install NPM packages
+2. Install webpack packages
    ```sh
-   npm install
+   --save-dev webpack
    ```
-3. Open the index.html file on your browser
+3. Run command
+   ```sh
+   npm start
+   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

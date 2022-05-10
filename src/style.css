@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: poppins, sans-serif;
+  padding: 2rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid black;
+  padding: 2rem;
+  width: 70%;
+}
+
+.recent {
+  width: 40%;
+}
+
+.recent-scores {
+  border: 2px solid black;
+  margin-top: 1rem;
+}
+
+.refresh {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score-container {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rem;
+}
+
+.input {
+  margin-top: 1rem;
+  font-family: poppins, sans-serif;
+  padding: 0.2rem 0.5rem;
+  outline: none;
+}
+
+.submit-btn {
+  margin-top: 1rem;
+  width: 30%;
+  padding: 0.2rem 0.5rem;
+  align-self: flex-end;
+  background: none;
+  border: 1px solid grey;
+  cursor: pointer;
+  box-shadow: 2px 5px  grey;
+}
+
+.refresh-btn {
+  height: 1.5rem;
+  padding: 0.1rem 0.5rem;
+  font-family: poppins, sans-serif;
+  border: 1px solid gray;
+  background: none;
+  cursor: pointer;
+  box-shadow: 2px 5px  grey;
+}
+
+.details:nth-child(even) {
+  background-color: lightgrey;
+}
+
+.details {
+  padding: 0 0.5rem;
+  font-size: 1rem;
+}

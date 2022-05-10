@@ -13,7 +13,7 @@
 
 ## Live Demo 
 
-[Live Demo Link](#)
+[Live Demo Link](https://frank1738.github.io/Leaderboard/)
 
 ## Getting Started
 

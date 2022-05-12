@@ -10,20 +10,31 @@ body {
   font-size: 1.2rem;
   display: flex;
   justify-content: center;
+  background-color: whitesmoke;
 }
 
 .container {
-  border: 1px solid black;
+  box-shadow: 0 0 10px gray;
   padding: 2rem;
   width: 70%;
+  background-color: white;
+  border-radius: 0.5rem;
 }
 
 .recent {
   width: 40%;
 }
 
+.header {
+  opacity: 0.8;
+}
+
+.first {
+  text-shadow: 3px 3px 3px lightslategrey;
+}
+
 .recent-scores {
-  border: 2px solid black;
+  border: 2px solid lightgrey;
   margin-top: 1rem;
 }
 
@@ -60,7 +71,12 @@ body {
   background: none;
   border: 1px solid grey;
   cursor: pointer;
-  box-shadow: 2px 5px grey;
+  box-shadow: 4px 5px grey;
+  transition: 0.3s all ease-in;
+}
+
+.submit-btn:hover {
+  box-shadow: -4px -5px gray;
 }
 
 .refresh-btn {
@@ -70,7 +86,12 @@ body {
   border: 1px solid gray;
   background: none;
   cursor: pointer;
-  box-shadow: 2px 5px grey;
+  box-shadow: 4px 5px grey;
+  transition: 0.3s all ease-in;
+}
+
+.refresh-btn:hover {
+  box-shadow: -4px -5px gray;
 }
 
 .details {

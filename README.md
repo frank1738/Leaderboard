@@ -1,30 +1,45 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Leaderboard
+![image](https://user-images.githubusercontent.com/98453979/171994749-12e8ba40-b098-4f46-b8d6-11640d4eb95c.png)
 
-> The leaderboard website displays scores submitted by different players. It also allows you to submit your score.
+
+> The leaderboard website fetches score data  submitted by different players  from an API and displays them. It also allows you to submit your score.
 
 ## Built With
 
 - HTML
+
 - CSS
-- Javascript
+
+- JavaScript
+
 - Webpack
+
+- Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
+
+- Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
+
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
+
 
 ## Live Demo 
 
 [Live Demo Link](https://frank1738.github.io/Leaderboard/)
 
+## Prerequisites
+
+- Have a working and updated browser
+- Have a local version control like **git** install on your computer
+- Have knowledge about figma to adapt the design by following some specific requirements
+- Have an account and sign in on GitHub, as online/remote version control system
+- Download waves to check project accessibilty
+
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
 
 - npm
   ```sh
@@ -52,9 +67,9 @@ This is an example of how to list things you need to use the software and how to
 
 See the [open issues](#) for a full list of proposed features (and known issues).
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Frankline Osoro**
 
 - GitHub: [@frank1738](https://github.com/frank1738)
 - Twitter: [@frankhiggins08](https://twitter.com/frankhiggins08)
@@ -66,6 +81,12 @@ See the [open issues](#) for a full list of proposed features (and known issues)
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+## Acknowledgments
+
+The design has been inspired by:
+
+[Microverse](https://www.microverse.org)
 
 ## 📝 License
 

@@ -4,7 +4,7 @@
 ![image](https://user-images.githubusercontent.com/98453979/171994749-12e8ba40-b098-4f46-b8d6-11640d4eb95c.png)
 
 
-> The leaderboard website fetches score data  submitted by different players  from an API and displays them. It also allows you to submit your score.
+- The leaderboard website fetches score data  submitted by different players  from an API and displays them. It also allows you to submit your score.
 
 ## Built With
 
